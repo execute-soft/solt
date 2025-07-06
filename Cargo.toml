@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Morshedul Islam <morshedulmunna1@gmail.com>"]
 description = "A comprehensive Redis CLI management tool"
 license = "MIT"
-repository = "https://github.com/Execute-Soft/rust-cli-setter"
+repository = "https://github.com/Execute-Soft/solt"
 readme = "README.md"
 
 [dependencies]
