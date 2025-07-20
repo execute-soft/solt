@@ -5,7 +5,7 @@ use log::info;
 use crate::cli::{Cli, Commands};
 use crate::commands::{
     backup, bulk, cluster, config, connect, copy, debug, delete, edit, export, favorites, filter,
-    get, hello, history, inspect, keys, monitor, pubsub, search, sentinel, set, stats, version,
+    get, history, inspect, keys, monitor, pubsub, search, sentinel, set, stats, version,
 };
 use crate::error::AppError;
 
@@ -56,9 +56,7 @@ pub async fn run() -> Result<(), AppError> {
             println!();
             println!("{}", "For more information, run: solt --help".cyan());
         }
-        Some(Commands::Hello { name }) => {
-            hello::run(name).await?;
-        }
+
         Some(Commands::Version) => {
             version::run().await?;
         }

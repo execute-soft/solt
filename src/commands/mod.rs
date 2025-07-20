@@ -1,4 +1,3 @@
-pub mod hello;
 pub mod version;
 
 // Connection & Config commands

@@ -23,13 +23,6 @@ pub struct Cli {
 
 #[derive(Subcommand)]
 pub enum Commands {
-    /// Say hello to someone
-    Hello {
-        /// The name to greet
-        #[arg(default_value = "World")]
-        name: String,
-    },
-    /// Show version information
     Version,
 
     // Connection & Config commands
